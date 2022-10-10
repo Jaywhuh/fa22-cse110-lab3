@@ -1,1 +1,6 @@
-# Lab 2 - Starter
+# Lab 2
+
+https://jaywhuh.github.io/HTMLandDevTools/
+
+
+
