@@ -1,0 +1,144 @@
+
+/* apply colors to your HTML elements */
+
+h1 {
+    color: navy;
+    background-color: rgb(251, 237, 157);
+    text-align: center;
+    text-decoration: underline;
+    margin: auto;
+    }
+
+h2 {
+    color: rgb(138,43,226);
+}
+    
+h3 {
+    color: hsl(51, 72%, 26%);
+}
+
+p {
+    color: hsl(240, 100%, 50%);
+}
+
+.bground {
+    background-color: #b0e9ef;
+    
+}
+
+.previous {
+    max-width: 50%;
+}
+
+ul {
+    border: 4px solid rebeccapurple;
+    padding-top: 10px;
+    padding-right: 1in;
+    padding-bottom: 10px;
+    padding-left: .4in;
+    margin-top: 1ch;
+    margin-right: 80%;
+    margin-bottom: 1cm;
+    margin-left: 5ex;
+}
+
+.border {
+    border-color: rebeccapurple;
+    border-width: 4px;
+    border-radius: 10px;
+    border-style: inset;
+    padding: 20px 50px 20px 50px;
+    margin: 5% 5em 5% 5em;
+}
+
+.displaybox {
+    height: 80px;
+    width: 80px;
+    max-height: 100px;
+    border: 10px solid red;
+    background-color: white;
+    display: inline-block;
+}
+
+#cee {
+    position: static;
+}
+
+#ee {
+    position: relative;
+    left: 35px;
+}
+
+.displaybox2 {
+    height: 80px;
+    width: 80px;
+    border: 10px solid blue;
+    background-color: white;
+    display: block;
+}
+
+.fit-picture{
+    max-width: 500px;
+}
+
+.hoverOverMe {
+    width: 15em;
+    height: 2cm;
+    background-color: skyblue;
+    border: 2px solid gold;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.hoverOverMe:hover {
+    background-color: lightblue;
+}
+
+.activateMe {
+    width: 15em;
+    height: 2cm;
+    background-color: skyblue;
+    border: 2px solid gold;
+    border-radius: 15px;
+    color: black;
+    cursor: pointer;
+}
+
+.activateMe:active {
+    box-shadow: 2px 2px 5px black;
+}
+
+.flexbox-test {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-end;
+    list-style: none;
+    margin: 2; 
+}
+
+.box {
+    height: 80px;
+    width: 300px;
+    border: 10px solid green;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.mediaForm {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    align-content: space-evenly; 
+}
+
+@media (max-width: 1250px) {
+    .bground{    
+    background-color: lightblue;
+    }
+}
+
+
