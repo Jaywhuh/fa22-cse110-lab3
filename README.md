@@ -1,6 +1,6 @@
-# Lab 2
+# Lab 3
 
-https://jaywhuh.github.io/HTMLandDevTools/
+https://jaywhuh.github.io/fa22-cse110-lab3/
 
 
 
