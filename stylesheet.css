@@ -118,7 +118,7 @@ ul {
     margin: 2; 
 }
 
-.box {
+.box1, .box2, .box3 {
     height: 80px;
     width: 300px;
     border: 10px solid green;
@@ -141,4 +141,35 @@ ul {
     }
 }
 
+* {
+    margin: 0;
+}
 
+
+p:hover {
+    color: red;
+}
+
+a[href="https://www.google.com"] {
+    color: magenta;
+}
+
+ul > li {
+    border-bottom: 1px solid blue;
+}  
+
+.border p {
+    color: darkred;
+}
+
+h4+h5 { 
+    border-left: 5px solid blue;
+}
+
+h3 ~ h5 { 
+    color: sienna;
+}
+
+section > div[class="displaybox"] {
+    color: magenta;
+}
