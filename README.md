@@ -1,4 +1,4 @@
-# Lab 2
+# Lab 3
 
 https://jaywhuh.github.io/HTMLandDevTools/
 
